@@ -47,6 +47,27 @@
         <li>
             <a href="punto13.php">Punto 13</a>
         </li>
+        <li>
+            <a href="punto14.php">Punto 14</a>
+        </li>
+        <li>
+            <a href="punto15.php">Punto 15</a>
+        </li>
+        <li>
+            <a href="punto16.php">Punto 16</a>
+        </li>
+        <li>
+            <a href="punto17.php">Punto 17</a>
+        </li>
+        <li>
+            <a href="punto19.php">Punto 19</a>
+        </li>
+        <li>
+            <a href="punto20.php">Punto 20</a>
+        </li>
+        <li>
+            <a href="punto21.php">Punto 21</a>
+        </li>
     </ul>
 </body>
 </html>

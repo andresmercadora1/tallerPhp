@@ -8,18 +8,20 @@
 </head>
 <body>
     <form method="post">
-        <input type="hidden" name="env" />
+        <input type="text" name="numero" placeholder="Digite un numero" />
         <input type="submit" value="Calcular">
     </form>
     
     <?php 
-        if($_POST) {
-            $cont = 30;
-            for ($i=30; $i > 0; $i--) {
-                $cont= $cont - 3;
+        if($_POST && $_POST["numero"]) {
+            $numero = $_POST["numero"];
+            $cont = $numero;
+            for ($i=$numero; $i > 0; $i--) {
+                
                 if ($cont > 0) {
                     echo '<p>'.$cont.'</p>';
                 }
+                $cont= $cont - 3;
             }
         }
     ?>
